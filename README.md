@@ -119,9 +119,9 @@ Self-hosted, transparent, and community-driven tools for fraud detection, AML sc
 
 ### ⭐ Open-Source Solutions Comparison Table
 
-Sorted descending by GitHub star count:
+Sorted descending by GitHub Stars_Count:
 
-| 📦 Project | ⭐ Stars | 🛠️ Stack | 📜 License | 🎯 Primary Focus |
+| 📦 Project | ⭐ GitHub_Stars | 🛠️ Stack | 📜 License | 🎯 Primary Focus |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Hyperswitch](https://github.com/juspay/hyperswitch)** | [![Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers) | Rust | Apache-2.0 | Payment orchestration, multi-PSP routing, smart retries & processing |
 | **[DGFraud](https://github.com/safe-graph/DGFraud)** | [![Stars](https://img.shields.io/github/stars/safe-graph/DGFraud?style=social&color=white)](https://github.com/safe-graph/DGFraud/stargazers) | Python / PyTorch / DGL | Apache-2.0 | Deep Graph Neural Network (GNN) toolbox for transaction fraud detection |
@@ -250,7 +250,7 @@ Contributions are welcome! Please feel free to open a pull request or submit an 
 1. **Fork** this repository.
 2. **Create a branch** for your updates (`git checkout -b feature/add-new-platform`).
 3. Ensure open-source additions include:
-   - Repository link with an official GitHub stars social badge
+   - Repository link with an official GitHub_Stars social badge
    - Tech stack & license details
    - Active maintenance status (commits/releases within the past 12 months)
 4. **Commit & Push** your branch, then open a Pull Request.
