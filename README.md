@@ -1,21 +1,36 @@
-# Awesome Transaction Monitoring & Processing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
+  <img src="./assets/banner.svg" alt="Awesome Transaction Monitoring & Processing Banner" width="100%" />
+</div>
 
-> A curated list of top **Transaction Monitoring**, **Fraud Detection**, **Anti-Money Laundering (AML) Compliance**, and **Payment Processing Orchestration** platforms — comparing enterprise SaaS/Hosted commercial solutions with open-source alternatives.
+<div align="center">
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Transaction-Monitoring-Processing/pulls)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+</div>
+
+# 🚀 Awesome Transaction Monitoring & Processing
+
+> 🛡️ A curated directory of top **Transaction Monitoring**, **Fraud Detection**, **Anti-Money Laundering (AML) Compliance**, and **Payment Processing Orchestration** platforms — comparing enterprise SaaS/Hosted commercial solutions with open-source alternatives.
 
 ---
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Commercial Solutions Comparison Table](#commercial-solutions-comparison-table)
-  - [Platform Profiles](#platform-profiles)
-- [Open-Source Software](#-open-source-software)
-  - [Open-Source Solutions Comparison Table](#open-source-solutions-comparison-table)
-  - [Open-Source Project Profiles](#open-source-project-profiles)
-- [Summary Matrix at a Glance](#-summary-matrix-at-a-glance)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+  - [📊 Commercial Solutions Comparison Table](#-commercial-solutions-comparison-table)
+  - [🏢 Platform Profiles](#-platform-profiles)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [⭐ Open-Source Solutions Comparison Table](#-open-source-solutions-comparison-table)
+  - [💻 Open-Source Project Profiles](#-open-source-project-profiles)
+- [📈 Summary Matrix at a Glance](#-summary-matrix-at-a-glance)
+- [🌟 Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
@@ -31,11 +46,11 @@ The sector is **moderately fragmented and highly specialized rather than a winne
 
 Commercial, cloud-hosted Transaction Monitoring, Risk Intelligence, and Payment Fraud platforms.
 
-### Commercial Solutions Comparison Table
+### 📊 Commercial Solutions Comparison Table
 
 Sorted descending by company size (Valuation / Annual Revenue):
 
-| Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Free Trial Limits | Key Specialization |
+| 🏢 Platform | 💰 Company Size (Valuation / Revenue) | 🏷️ Starting Tier Pricing | 🎁 Free Tier / Free Trial Limits | 🎯 Key Specialization |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Stripe Radar](https://stripe.com/radar)** | **$159B+ valuation** (~$5.12B+ net rev) | Radar Lite included in processing; **$0.02 / screened transaction** for Radar for Fraud Teams ($0.07/txn for non-Stripe) | **Radar Lite is free forever** (built into all Stripe transactions with ML scoring); 30-day trial for Radar for Fraud Teams | Payment fraud detection & real-time risk scoring |
 | **[NICE Actimize](https://www.niceactimize.com/)** | **~$1.5B–$2.0B valuation** ($485M+ annual rev) | Enterprise contract starting at **~$50,000 / year** (scaled per module & volume) | **No free tier**; 30-day proof-of-concept (PoC) sandbox for qualified enterprise RFPs | Tier-1 bank AML surveillance, FRAML, & trade compliance |
@@ -49,49 +64,49 @@ Sorted descending by company size (Valuation / Annual Revenue):
 
 ---
 
-### Platform Profiles
+### 🏢 Platform Profiles
 
-#### Stripe Radar
+#### 💳 Stripe Radar
 - **Overview:** Fraud detection engine built directly into the Stripe payment infrastructure, using ML models trained across millions of global businesses.
 - **Key Features:** Machine learning risk scores, automated block/allow lists, 3D Secure dynamic authentication, and no-code custom rule engines on advanced tiers.
 - **Pricing Details:** Radar Lite included with standard processing; Radar for Fraud Teams adds $0.02 per screened transaction. Free 30-day trial for Fraud Teams; Radar Lite is free forever.
 
-#### NICE Actimize
+#### 🏛️ NICE Actimize
 - **Overview:** Long-standing enterprise standard for anti-money laundering, trade surveillance, and cross-channel financial crime detection.
 - **Key Features:** Enterprise case management, SAR/CTR regulatory automated reporting, watchlists, customer due diligence, and anomaly modeling.
 - **Pricing Details:** Custom annual enterprise contracts starting at ~$50,000/yr. No public free tier; sandbox environments provided during RFPs.
 
-#### Feedzai
+#### 🧠 Feedzai
 - **Overview:** AI-native risk management engine serving top-tier retail banks, card acquirers, and central bank digital currency (CBDC) pilots.
 - **Key Features:** Real-time stream processing, behavioral profiling, automated fraud triage, and hybrid rule-plus-AI machine learning models.
 - **Pricing Details:** Starting contracts around ~$40,000/yr. PoC and sandbox access upon sales qualification.
 
-#### Sardine
+#### 🐟 Sardine
 - **Overview:** Integrated platform combining fraud prevention, identity verification, and AML compliance designed for fintechs, crypto exchanges, and neobanks.
 - **Key Features:** Device fingerprinting, behavioral biometrics (keystroke dynamics, device angling), payment orchestration screening, and ACH chargeback mitigation.
 - **Pricing Details:** Minimum monthly commitment starting at $1,500/month. Assisted sandboxes available for qualified engineering teams.
 
-#### Unit21
+#### 🛡️ Unit21
 - **Overview:** Flexible, no-code data platform for AML monitoring, fraud investigation, and regulatory reporting.
 - **Key Features:** Visual rule builder, custom scenario backtesting against historical database events, workflow automation, and SAR e-filing.
 - **Pricing Details:** Annual tiers starting around $33,000/year. Sandbox and trial environments available via sales consultations.
 
-#### ComplyAdvantage
+#### 🔍 ComplyAdvantage
 - **Overview:** Financial crime data intelligence providing automated watchlist checks, adverse media scanning, and transaction monitoring.
 - **Key Features:** Proprietary dynamic risk graph, real-time PEP/sanctions database updates, automated batch screening, and API-first webhook notifications.
 - **Pricing Details:** Starts at $99/month for the Essentials tier. Eligible startups can receive up to 12 months free through the ComplyLaunch startup accelerator program.
 
-#### SEON
+#### 🕵️ SEON
 - **Overview:** Digital footprint analysis tool that enriches customer identifiers (email, phone number, IP address) using open-source intelligence and social signals.
 - **Key Features:** 50+ social platform lookups, browser fingerprinting, reverse phone/email scoring, and transparent rule decision explanations.
 - **Pricing Details:** Starter plan starts at $599/month. Features a **free forever plan** with 2,000 API calls/month and a 14-day full Pro free trial.
 
-#### Hawk AI
+#### 🦅 Hawk AI
 - **Overview:** Cloud-native surveillance platform for banks and payment service providers focusing on explainable AI and transparent audits.
 - **Key Features:** Real-time transaction pattern anomaly detection, false-positive reduction using supervised ML, customer risk rating, and audit logs.
 - **Pricing Details:** Modular packages starting from $15,000/year. Structured 30-day technical pilot programs available.
 
-#### Flagright
+#### 🚩 Flagright
 - **Overview:** Modern, AI-first AML and fraud engine enabling fast integration via modular REST APIs and AI compliance co-pilots.
 - **Key Features:** Real-time rule evaluation (<100ms response), generative AI case summarization, sanctions screening, and merchant risk monitoring.
 - **Pricing Details:** Packages start around $15,000/year for growth fintechs. Free 30-day developer sandbox environment upon request.
@@ -102,11 +117,11 @@ Sorted descending by company size (Valuation / Annual Revenue):
 
 Self-hosted, transparent, and community-driven tools for fraud detection, AML screening, graph intelligence, and payment orchestration.
 
-### Open-Source Solutions Comparison Table
+### ⭐ Open-Source Solutions Comparison Table
 
 Sorted descending by GitHub star count:
 
-| Project | Stars | Stack | License | Primary Focus |
+| 📦 Project | ⭐ Stars | 🛠️ Stack | 📜 License | 🎯 Primary Focus |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Hyperswitch](https://github.com/juspay/hyperswitch)** | [![Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers) | Rust | Apache-2.0 | Payment orchestration, multi-PSP routing, smart retries & processing |
 | **[DGFraud](https://github.com/safe-graph/DGFraud)** | [![Stars](https://img.shields.io/github/stars/safe-graph/DGFraud?style=social&color=white)](https://github.com/safe-graph/DGFraud/stargazers) | Python / PyTorch / DGL | Apache-2.0 | Deep Graph Neural Network (GNN) toolbox for transaction fraud detection |
@@ -121,63 +136,63 @@ Sorted descending by GitHub star count:
 
 ---
 
-### Open-Source Project Profiles
+### 💻 Open-Source Project Profiles
 
-#### [Hyperswitch](https://github.com/juspay/hyperswitch) [![Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers)
+#### ⚡ [Hyperswitch](https://github.com/juspay/hyperswitch) [![Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers)
 - **Stack:** Rust | **License:** Apache-2.0  
 - **Description:** A high-performance, open-source payment orchestration platform developed by Juspay. Hyperswitch acts as a unified payments gateway connecting dozens of payment service providers (PSPs), vaults, tokenization services, and fraud detection endpoints through a single API.
 - **Key Capabilities:** Dynamic smart routing to optimize authorization rates and lower transaction costs, automated card vaulting, auto-retries, reconciliation, and peak capacity handling up to ~10,000 TPS.
 - **Best For:** Engineering teams looking to self-host unified payment processing orchestration without vendor lock-in.
 
-#### [DGFraud](https://github.com/safe-graph/DGFraud) [![Stars](https://img.shields.io/github/stars/safe-graph/DGFraud?style=social&color=white)](https://github.com/safe-graph/DGFraud/stargazers)
+#### 🕸️ [DGFraud](https://github.com/safe-graph/DGFraud) [![Stars](https://img.shields.io/github/stars/safe-graph/DGFraud?style=social&color=white)](https://github.com/safe-graph/DGFraud/stargazers)
 - **Stack:** Python / PyTorch / DGL | **License:** Apache-2.0  
 - **Description:** A comprehensive Graph Neural Network (GNN) toolbox specifically engineered for graph-based fraud detection. Implements state-of-the-art algorithms tailored to uncover multi-hop financial crime, synthetic identities, and collusive fraud networks.
 - **Key Capabilities:** Out-of-the-box implementations of graph models including SemiGNN, GraphConsis, CARE-GNN, and GasGNN, with benchmarks on transactional datasets.
 - **Best For:** Data science and risk engineering teams building custom graph algorithms for detecting fraud rings and organized transaction laundering.
 
-#### [Fraud Detection Handbook](https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook) [![Stars](https://img.shields.io/github/stars/Fraud-Detection-Handbook/fraud-detection-handbook?style=social&color=white)](https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook/stargazers)
+#### 📖 [Fraud Detection Handbook](https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook) [![Stars](https://img.shields.io/github/stars/Fraud-Detection-Handbook/fraud-detection-handbook?style=social&color=white)](https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook/stargazers)
 - **Stack:** Python / Scikit-learn / Jupyter | **License:** MIT  
 - **Description:** An industry-standard open-source code and educational reference for credit card fraud detection. Provides fully reproducible implementations covering data simulation, baseline ML modeling, cost-sensitive assessment, and sequential transaction feature engineering.
 - **Key Capabilities:** Synthetic transaction generator with injected fraud patterns, imbalanced learning strategies, PR-AUC and cost-sensitive evaluation metrics, and real-time streaming simulation.
 - **Best For:** Engineers and analysts transitioning into financial fraud machine learning and transaction risk scoring.
 
-#### [Marble](https://github.com/checkmarble/marble) [![Stars](https://img.shields.io/github/stars/checkmarble/marble?style=social&color=white)](https://github.com/checkmarble/marble/stargazers)
+#### 🎲 [Marble](https://github.com/checkmarble/marble) [![Stars](https://img.shields.io/github/stars/checkmarble/marble?style=social&color=white)](https://github.com/checkmarble/marble/stargazers)
 - **Stack:** TypeScript / Python / Docker | **License:** Open Source  
 - **Description:** An open-source, real-time decision engine and workflow platform for financial fraud, sanctions screening, and AML transaction monitoring.
 - **Key Capabilities:** Visual rule creation interface, customer risk scoring pipelines, integrated watchlist screening, audit logs, and alert triage case management.
 - **Best For:** Fintechs and compliance teams desiring an open-core, transparent alternative to proprietary risk engines.
 
-#### [Moov Watchman](https://github.com/moov-io/watchman) [![Stars](https://img.shields.io/github/stars/moov-io/watchman?style=social&color=white)](https://github.com/moov-io/watchman/stargazers)
+#### 🔎 [Moov Watchman](https://github.com/moov-io/watchman) [![Stars](https://img.shields.io/github/stars/moov-io/watchman?style=social&color=white)](https://github.com/moov-io/watchman/stargazers)
 - **Stack:** Go | **License:** Apache-2.0  
 - **Description:** A dedicated, lightweight microservice for searching US OFAC sanctions (SDN), Sectoral Sanctions Identifications (SSI), Politically Exposed Persons (PEP), and European Union consolidated lists.
 - **Key Capabilities:** Automated watchlist downloads and indexing, fuzzy phonetic matching (Jaro-Winkler, Levenshtein), REST APIs, embedded Go library usage, and in-memory search pipelines.
 - **Best For:** Payment gateways and compliance stacks needing self-hosted, ultra-low latency customer and transaction sanctions screening.
 
-#### [Tazama](https://github.com/tazama-lf/docs) [![Stars](https://img.shields.io/github/stars/tazama-lf/docs?style=social&color=white)](https://github.com/tazama-lf/docs/stargazers)
+#### 🌐 [Tazama](https://github.com/tazama-lf/docs) [![Stars](https://img.shields.io/github/stars/tazama-lf/docs?style=social&color=white)](https://github.com/tazama-lf/docs/stargazers)
 - **Stack:** TypeScript / NodeJS / Docker / K8s | **License:** Apache-2.0  
 - **Description:** Hosted under the Linux Foundation and recognized as a Digital Public Good with backing from the Bill & Melinda Gates Foundation, Tazama is a full-scale open-source transaction monitoring system.
 - **Key Capabilities:** Real-time event evaluation against multi-rule typologies, ISO 20022 financial message compliance, low-code Rule Studio, connection adapters for legacy core banking systems, and automated threshold calibration.
 - **Best For:** Central banks, national payment switches, and Tier-2 financial institutions requiring production-grade, audited real-time AML monitoring.
 
-#### [AI-Based AML System](https://github.com/mominalix/AI-Based-Anti-Money-Laundering-AML-System) [![Stars](https://img.shields.io/github/stars/mominalix/AI-Based-Anti-Money-Laundering-AML-System?style=social&color=white)](https://github.com/mominalix/AI-Based-Anti-Money-Laundering-AML-System/stargazers)
+#### 🤖 [AI-Based AML System](https://github.com/mominalix/AI-Based-Anti-Money-Laundering-AML-System) [![Stars](https://img.shields.io/github/stars/mominalix/AI-Based-Anti-Money-Laundering-AML-System?style=social&color=white)](https://github.com/mominalix/AI-Based-Anti-Money-Laundering-AML-System/stargazers)
 - **Stack:** Python / Microservices / Docker | **License:** Apache-2.0  
 - **Description:** A microservices reference architecture for real-time AML monitoring that integrates pattern analysis, sanction screening, and explainable AI risk scoring.
 - **Key Capabilities:** Velocity checking, rule-based decisioning, SHAP-based machine learning explanations, and automated regulatory reporting scaffolding.
 - **Best For:** Developers and researchers looking for an end-to-end blueprint to build custom transaction monitoring microservices.
 
-#### [ezrules](https://github.com/sofeikov/ezrules) [![Stars](https://img.shields.io/github/stars/sofeikov/ezrules?style=social&color=white)](https://github.com/sofeikov/ezrules/stargazers)
+#### 🎛️ [ezrules](https://github.com/sofeikov/ezrules) [![Stars](https://img.shields.io/github/stars/sofeikov/ezrules?style=social&color=white)](https://github.com/sofeikov/ezrules/stargazers)
 - **Stack:** Python / FastAPI / Redis / PostgreSQL | **License:** Open Source  
 - **Description:** An open-source transaction monitoring platform centered on granular rule control, historical backtesting, and full auditability.
 - **Key Capabilities:** Web-based operational console, shadow rule evaluation mode (dry run without impacting live traffic), percentage-based rollout flags, precision/recall metrics calculation, and entity relationship visualization.
 - **Best For:** Risk teams requiring a self-hosted, transparent rule evaluation engine with zero engineering dependency for day-to-day rule modifications.
 
-#### [Mifos Payment Hub EE](https://github.com/openMF/ph-ee-start-here) [![Stars](https://img.shields.io/github/stars/openMF/ph-ee-start-here?style=social&color=white)](https://github.com/openMF/ph-ee-start-here/stargazers)
+#### 🏦 [Mifos Payment Hub EE](https://github.com/openMF/ph-ee-start-here) [![Stars](https://img.shields.io/github/stars/openMF/ph-ee-start-here?style=social&color=white)](https://github.com/openMF/ph-ee-start-here/stargazers)
 - **Stack:** Java / Zeebe / BPMN | **License:** Mozilla Public License 2.0  
 - **Description:** An enterprise-grade payment orchestration engine designed for financial inclusion by the Mifos Initiative. Bridges core banking engines (such as Apache Fineract) with national payment switches and mobile wallets.
 - **Key Capabilities:** Zeebe BPMN workflow orchestration, ISO 20022 and GSMA Mobile Money API compliance, asynchronous settlement, and pre-built connectors for instant payment networks (including Mojaloop).
 - **Best For:** Microfinance institutions, regional digital banks, and sovereign mobile money networks.
 
-#### [FraudSentinel](https://github.com/jibz33on/fraudsentinel) [![Stars](https://img.shields.io/github/stars/jibz33on/fraudsentinel?style=social&color=white)](https://github.com/jibz33on/fraudsentinel/stargazers)
+#### ⏱️ [FraudSentinel](https://github.com/jibz33on/fraudsentinel) [![Stars](https://img.shields.io/github/stars/jibz33on/fraudsentinel?style=social&color=white)](https://github.com/jibz33on/fraudsentinel/stargazers)
 - **Stack:** Python / LightGBM / PyG | **License:** Apache-2.0  
 - **Description:** Ultra-fast Tier-1 statistical models built to pre-filter massive payment streams before invoking costly LLM inference or complex investigative pipelines.
 - **Key Capabilities:** LightGBM card fraud scoring in under 5ms (ROC-AUC 0.999), GINE Graph Neural Network AML scoring (ROC-AUC 0.894), and edge-based routing thresholds.
@@ -185,9 +200,9 @@ Sorted descending by GitHub star count:
 
 ---
 
-## 📊 Summary Matrix at a Glance
+## 📈 Summary Matrix at a Glance
 
-| Tool / Platform | Category | Deployment | Real-Time Latency | Pricing / License | Core Focus |
+| 🛠️ Tool / Platform | 🏷️ Category | ☁️ Deployment | ⏱️ Real-Time Latency | 💵 Pricing / License | 🎯 Core Focus |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Stripe Radar** | SaaS | Hosted | <50ms | Free Lite / $0.02 per txn | Integrated card payment fraud |
 | **NICE Actimize** | SaaS / Hybrid | Hosted / On-Prem | <100ms | From ~$50,000/yr | Enterprise Tier-1 bank AML & FRAML |
@@ -208,6 +223,23 @@ Sorted descending by GitHub star count:
 | **ezrules** | Open Source | Self-Hosted | <20ms | Open Source | Rule shadow testing & lifecycle management |
 | **Mifos PH-EE** | Open Source | Self-Hosted | <200ms | Mozilla 2.0 | Payment orchestration & financial inclusion |
 | **FraudSentinel** | Open Source | Self-Hosted (Lib) | <5ms | Apache-2.0 | Sub-5ms Tier-1 statistical fraud scorers |
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Transaction-Monitoring-Processing&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Transaction-Monitoring-Processing&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+If you find this curated list valuable for your financial crime research, risk engineering, or compliance development:
+
+- ⭐ **Star this repository** to support our work and improve discoverability!
+- 🍴 **Fork it** and contribute new tools, libraries, or updated benchmarks.
+- 📢 **Share it** with your network and fintech communities.
+- ☕ **Buy us a coffee:** Support ongoing open-source curation and project maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
